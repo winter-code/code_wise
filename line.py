@@ -14,7 +14,7 @@ class Window(QtWidgets.QWidget):
         self.le = QtWidgets.QLineEdit()
         self.b1 = QtWidgets.QPushButton('Clear')
         self.b2 = QtWidgets.QPushButton('Search')
-        self.l1 = QtWidgets.QLabel('In progress')
+        self.l1 = QtWidgets.QLabel('What do you want?')
 
 
 
