@@ -3,10 +3,10 @@ import wave
 
 
 path= input("Enter directory to store at :")
-for i in range(2):
+for i in range(1,3):
 	FORMAT = pyaudio.paInt16
-	CHANNELS = 2
-	RATE = 44100
+	CHANNELS = 1
+	RATE = 24000
 	CHUNK = 1024
 	RECORD_SECONDS = 2
 	
