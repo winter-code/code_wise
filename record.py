@@ -8,7 +8,7 @@ for i in range(2):
 	CHANNELS = 2
 	RATE = 44100
 	CHUNK = 1024
-	RECORD_SECONDS = 1
+	RECORD_SECONDS = 2
 	
 	WAVE_OUTPUT_FILENAME = path+"/file"+str(i)+".wav"
 	 
