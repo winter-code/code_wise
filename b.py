@@ -2,7 +2,7 @@ from scipy.io import wavfile
 import matplotlib.pyplot as plt
 
 path=input("Enter directory : ")
-for i in range(2):
+for i in range(1):
 	Input_file= path+"/file"+str(i)+".wav"
 	fs, data= wavfile.read(Input_file)
 
