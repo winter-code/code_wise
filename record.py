@@ -3,7 +3,7 @@ import wave
 
 
 path= input("Enter directory to store at :")
-for i in range(1,3):
+for i in range(2):
 	FORMAT = pyaudio.paInt16
 	CHANNELS = 2
 	RATE = 44100
